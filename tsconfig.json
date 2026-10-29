@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": ["es2020", "dom"],
+    "strict": true,
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "moduleResolution": "bundler",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "sourceMap": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "types": ["next/font", "node"]
+  },
+  "include": ["page.tsx", "layout.tsx"],
+  "exclude": ["node_modules"]
+}

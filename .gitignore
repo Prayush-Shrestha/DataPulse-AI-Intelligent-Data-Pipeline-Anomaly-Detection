@@ -1,0 +1,19 @@
+# Dependencies
+node_modules
+
+# Next.js build outputs
+.next
+dist
+
+# Environment variables (if any)
+.env*
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
