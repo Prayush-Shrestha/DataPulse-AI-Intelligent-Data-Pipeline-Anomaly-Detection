@@ -10,7 +10,6 @@
     "sourceType": "module"
   },
   "plugins": ["@typescript-eslint"],
-  "ignorePatterns": ["**/*.css", "node_modules"],
   "rules": {
     "no-console": "warn",
     "no-unused-vars": "warn"
