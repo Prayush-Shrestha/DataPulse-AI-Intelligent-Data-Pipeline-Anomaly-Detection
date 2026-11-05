@@ -64,7 +64,7 @@ jobs:
         run: npx tsc --noEmit
 
       - name: Run ESLint
-        run: npx eslint page.tsx layout.tsx
+        run: npx eslint app/page.tsx app/layout.tsx
 
       - name: Validate Python environment
         run: |
