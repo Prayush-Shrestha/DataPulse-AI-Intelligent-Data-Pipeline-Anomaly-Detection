@@ -1,13 +1,10 @@
 {
   "compilerOptions": {
     "target": "es2020",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
+    "lib": ["es2020", "dom"],
     "strict": true,
     "module": "esnext",
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "moduleResolution": "bundler",
     "outDir": "./dist",
     "rootDir": "./",
@@ -17,21 +14,8 @@
     "sourceMap": true,
     "noEmit": true,
     "skipLibCheck": true,
-    "types": [
-      "next/font",
-      "node"
-    ],
-    "allowJs": true,
-    "incremental": true,
-    "isolatedModules": true
+    "types": ["next/font", "node"]
   },
-  "include": [
-    "*.ts",
-    "*.tsx",
-    "app/**/*",
-    "components/**/*"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["page.tsx", "layout.tsx"],
+  "exclude": ["node_modules"]
 }
